@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Full-Stack Roadmap (Advanced)</title>
+        <script src="https://kit.fontawesome.com/fd0d0cf834.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="advanced.css">
+    </head>
+
+    <body id="body" class="column">
+        <div class="toggle-container row">
+            <i class="fa-solid fa-moon none" onclick="darkMode()"  id="moon-icon"></i>
+            <i class="fa-solid fa-sun" onclick="lightMode()" id="sun-icon"></i>
+        </div>
+
+        <div class="advanced-container">
+            <section class="introduction-container column">
+                <div class="title-container column">
+                    <h1>Full-Stack Roadmap (Advanced)</h1>
+                    <p>Here you will find all you need to understand the full-stack development best.</p>
+                </div>
+                
+                <div class="fullstack-container" id="fullstack-container">
+                    <div class="jobnames-container row" id="jobnames-container">
+                        <a href="#frontend" id="frontend-title" class="job-links"><h2>Frontend</h2></a>
+                        <a href="#backend" id="backend-title" class="job-links"><h2>Backend</h2></a>
+                    </div>
+
+                    <div class="languages-container row">
+                        <a href="#html" class="language-links"><i class="fa-brands fa-html5"></i></a>
+                        <a href="#css" class="language-links"><i class="fa-brands fa-css3-alt"></i></a>
+                        <a href="#javascript" class="language-links"><i class="fa-brands fa-js"></i></a>
+                        <a href="#php" class="language-links"><i class="fa-brands fa-php"></i></a>
+                        <a href="#sql" class="language-links"><i class="fa-solid fa-database"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="frontend-content-container row" id="frontend">
+                <div class="content-container row" id="frontend-container">
+                    <div class="details-container column">
+                        <h2>Frontend</h2>
+                        <p>The frontend is the client-side application layer responsible for rendering the interface, managing state, and interacting with backend services.</p>
+
+                        <ul>
+                            <li>Translates application state into a coherent and responsive user experience</li>
+                            <li>Manages asynchronous data flows and user-driven interactions</li>
+                            <li>Synchronizes local UI state with backend-provided data</li>
+                            <li>Balances performance, accessibility, and usability constraints</li>
+                        </ul>
+                        
+                        <div class="advanced-content">
+                            <p>At an advanced level, the frontend functions as a client-side application responsible for translating system state into a consistent user experience.</p>
+                            <p>It manages asynchronous data, user interactions, and interface updates while balancing performance, accessibility, and responsiveness.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/Front_end_and_back_end">wiki</a>.</p>
+                        <!--<p>Frontend development involves creating the user interface and user experience of a website or application using HTML, CSS, and JavaScript.</p>-->
+                    </div>
+
+                    <div class="image-container row">
+                        <img src="frontend_image.png" alt="Frontend Image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="backend-content-container row" id="backend">
+                <div class="content-container row" id="backend-container">
+                    <div class="image-container row">
+                        <img src="backend_image.png" alt="Backend Image">
+                    </div>
+
+                    <div class="details-container column">
+                        <h2>Backend</h2>
+                        <p>The backend is the server-side system that enforces application logic, security, and data flow independently of the user interface.</p>
+
+                        <ul>
+                            <li>Acts as the authoritative layer for application logic and rules</li>
+                            <li>Validates and processes all incoming requests regardless of source</li>
+                            <li>Enforces authentication, authorization, and data integrity</li>
+                            <li>Coordinates operations across services and persistent storage</li>
+                        </ul>
+
+                        <div class="advanced-content">
+                            <p>The backend acts as the authoritative control layer that defines and enforces application rules independently of the interface.</p>
+                            <p>It validates requests, manages permissions, and maintains consistency and security under concurrent usage.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/Front_end_and_back_end">wiki</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="html-content-container row" id="html">
+                <div class="content-container row" id="html-container">
+                    <div class="details-container column">
+                        <h2>HTML <span>(HyperText Markup Language)</span></h2>
+                        <p>HTML defines the semantic structure of the application and serves as the foundation for accessibility, styling, and scripting.</p>
+
+                        <ul>
+                            <li>Defines semantic structure and document hierarchy</li>
+                            <li>Enables accessibility tools and predictable browser behavior</li>
+                            <li>Serves as a stable foundation for styling and scripting layers</li>
+                            <li>Improves maintainability through meaningful markup</li>
+                        </ul>
+
+                        <div class="advanced-content">
+                            <p>HTML provides semantic structure that defines meaning, hierarchy, and intent rather than visual appearance.</p>
+                            <p>This structure enables accessibility technologies, predictable browser behavior, and reliable interaction with scripts and styles.</p>
+                            <p>By establishing a clear document foundation, HTML supports long-term maintainability and scalability of the interface.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/HTML">wiki</a>.</p>
+                    </div>
+
+                    <div class="image-container row">
+                        <img src="html_image.jpg" alt="Html Image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="css-content-container row" id="css">
+                <div class="content-container row" id="css-container">
+                    <div class="image-container row">
+                        <img src="css_image.png" alt="Css Image">
+                    </div>
+
+                    <div class="details-container column">
+                        <h2>CSS <span>(Cascading Style Sheets)</span></h2>
+                        <p>CSS controls layout, visual systems, and responsive behavior through declarative styling rules.</p>
+
+                        <ul>
+                            <li>Governs layout behavior and responsive adaptation</li>
+                            <li>Establishes visual hierarchy and design consistency</li>
+                            <li>Defines reusable patterns and component-level styling rules</li>
+                            <li>Communicates state and structure through visual cues</li>
+                        </ul>
+
+                        <div class="advanced-content">
+                            <p>CSS governs layout behavior, visual hierarchy, and responsive adaptation across devices and screen sizes.</p>
+                            <p>It defines reusable styling patterns, constraints, and relationships that allow interfaces to scale without increasing complexity.</p>
+                            <p>Through spacing, contrast, and motion, CSS communicates structure and state independently from application logic.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/CSS">wiki</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="javascript-content-container row" id="javascript">
+                <div class="content-container row" id="javascript-container">
+                    <div class="details-container column">
+                        <h2>JavaScript <span>(Programming Language)</span></h2>
+                        <p>JavaScript powers the application logic in the browser, handling state, events, and communication with the backend.</p>
+
+                        <ul>
+                            <li>Coordinates user interactions and application state</li>
+                            <li>Manages asynchronous operations and event sequencing</li>
+                            <li>Handles communication between frontend and backend APIs</li>
+                            <li>Ensures UI updates accurately reflect system state</li>
+                        </ul>
+
+                        <div class="advanced-content">
+                            <p>JavaScript coordinates user input, application state, and backend communication within the browser runtime.</p>
+                            <p>It manages asynchronous operations, event sequencing, and dynamic interface updates in response to user and server activity.</p>
+                            <p>At an advanced level, JavaScript controls data flow and interaction logic rather than isolated actions.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/JavaScript">wiki</a>.</p>
+                    </div>
+
+                    <div class="image-container row">
+                        <img src="javascript_image.jpg" alt="JavaScript Image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="php-content-container row" id="php">
+                <div class="content-container row" id="php-container">
+                    <div class="image-container row">
+                        <img src="php_image.jpg" alt="PHP Image">
+                    </div>
+
+                    <div class="details-container column">
+                        <h2>PHP <span>(Hypertext Preprocessor)</span></h2>
+                        <p>PHP is a server-side execution environment used to process requests, manage sessions, and coordinate backend operations.</p>
+
+                        <ul>
+                            <li>Processes HTTP requests within the backend environment</li>
+                            <li>Enforces security rules and session management</li>
+                            <li>Handles data validation and backend workflows</li>
+                            <li>Generates structured responses for frontend consumption</li>
+                        </ul>
+
+                        <div class="advanced-content">
+                            <p>PHP processes HTTP requests and executes backend logic within a controlled server environment.</p>
+                            <p>It manages request lifecycles, enforces authentication and authorization rules, and validates incoming data.</p>
+                            <p>PHP acts as the bridge between external clients and internal application logic, producing structured responses.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/PHP">wiki</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sql-content-container row" id="sql">
+                <div class="content-container row" id="sql-container">
+                    <div class="details-container column">
+                        <h2>SQL <span>(Structured Query Language)</span></h2>
+                        <p>SQL defines how application data is structured, stored, and retrieved within a relational database.</p>
+
+                        <ul>
+                            <li>Defines relational data structures and constraints</li>
+                            <li>Maintains data integrity and consistency over time</li>
+                            <li>Models relationships between application entities</li>
+                            <li>Optimizes data retrieval and storage patterns</li>
+                        </ul>
+
+                        <div class="advanced-content">
+                            <p>SQL defines how data is structured, related, and constrained within a relational database system.</p>
+                            <p>It enforces integrity rules, represents real-world relationships, and prevents inconsistent or invalid data from being stored.</p>
+                            <p>Efficient querying and indexing enable reliable access to data as application complexity and volume grow.</p>
+                        </div>
+
+                        <p>For more info check out <a href="https://en.wikipedia.org/wiki/SQL">wiki</a>.</p>
+                    </div>
+
+                    <div class="image-container row">
+                        <img src="sql_image.jpg" alt="SQL Image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="outroduction-container column">
+                <div class="divider-one column">
+                    <div class="gratitude-container column" id="gratitude-container">
+                        <h1>Thanks for reaching the end hope you liked it.</h1>
+                        <p>Feel free to check out my portfolio, youtube channel, and github profile.</p>
+                    </div>
+                </div>
+
+                <div class="divider-two column">
+                    <div class="copyright-container">
+                        <p>&copy; 2026 Full-Stack Roadmap. All rights reserved.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="advanced.js"></script>
+    </body>
+</html>

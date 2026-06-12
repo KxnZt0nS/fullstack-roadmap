@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Full-Stack Roadmap (Basic)</title>
+        <script src="https://kit.fontawesome.com/fd0d0cf834.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body id="body">
+        <header>
+            <h1>Full-Stack Roadmap (Basic)</h1>
+        </header>
+
+        <div class="fullstack-container row">
+            <div class="back-container row">
+                <i class="fa-solid fa-chevron-left btns" onclick="goBackLeft()" id="back-left-btn"></i>
+                <i class="fa-solid fa-chevron-up btns none" onclick="goBackUp()" id="back-up-btn"></i>
+            </div>
+
+            <div class="html-container languages-container column">
+                <div class="title-container column">
+                    <h2>HTML</h2>
+                    <p>(HyperText Markup Language)</p>
+                </div>
+
+                <div class="icon-container row">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+
+                <div class="description-container column">
+                    <p>Frontend</p>
+                    <p>HTML is the structure of the web page.</p>
+                </div>
+            </div>
+
+            <div class="css-container languages-container column none">
+                <div class="title-container column">
+                    <h2>CSS</h2>
+                    <p>(Cascading Style Sheets)</p>
+                </div>
+
+                <div class="icon-container row">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+
+                <div class="description-container column">
+                    <p>Frontend</p>
+                    <p>CSS is the decoration of the web page.</p>
+                </div>
+            </div>
+
+            <div class="javascript-container languages-container column none">
+                <div class="title-container column">
+                    <h2>JavaScript</h2>
+                    <p>(Programming Language)</p>
+                </div>
+
+                <div class="icon-container row">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <div class="description-container column">
+                    <p>Frontend and Backend</p>
+                    <p>JavaScript is the functionality of the web page.</p>
+                </div>
+            </div>
+
+            <div class="php-container languages-container column none">
+                <div class="title-container column">
+                    <h2>PHP</h2>
+                    <p>(Hypertext Preprocessor)</p>
+                </div>
+
+                <div class="icon-container row">
+                    <i class="fa-brands fa-php"></i>
+                </div>
+
+                <div class="description-container column">
+                    <p>Backend</p>
+                    <p>PHP is the server-side scripting language.</p>
+                </div>
+            </div>
+
+            <div class="sql-container languages-container column none">
+                <div class="title-container column">
+                    <h2>SQL</h2>
+                    <p>(Structured Query Language)</p>
+                </div>
+
+                <div class="icon-container row">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <div class="description-container column">
+                    <p>Backend</p>
+                    <p>SQL is the database of the web page.</p>
+                </div>
+            </div>
+
+            <div class="next-container row">
+                <i class="fa-solid fa-chevron-right btns" onclick="goNextRight()" id="next-right-btn"></i>
+                <i class="fa-solid fa-chevron-down btns none" onclick="goNextDown()" id="next-down-btn"></i>
+            </div>
+        </div>
+
+        <footer class="row">
+            <p>&copy; KxnZs 2026 - Advanced Roadmap <a href="advanced.html" id="advanced-link">Here</a>.</p>
+
+            <div class="toggle-container row">
+                <i class="fa-solid fa-moon none" onclick="darkMode()"  id="moon-icon"></i>
+                <i class="fa-solid fa-sun" onclick="lightMode()" id="sun-icon"></i>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>    
+    </body>
+</html>
